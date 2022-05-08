@@ -18,6 +18,8 @@ body{
     font-family:Trebuchet MS, Helvetica ;
 }
 
+/* HEADER */
+
 header{
     width: 100%;
     padding:10px 0.5% 0px 0.5%;
@@ -94,7 +96,7 @@ header.fixed #logo {
 .fixed #about a {color: #343434;}
 .fixed #about a:hover {color: #7c7c7c;}
 
-
+/* TOP */
 #top{
     width: 100%;
     background-image: url(https://storage.googleapis.com/lmo/2017/01/a0be5f8c-mackbook-on-table-showcase.jpg);
@@ -137,4 +139,49 @@ header.fixed #logo {
 #top h3{
     color: #ccc;
 }
+
+/* MAIN */
+
+#main{
+
+    float: left;
+    background-color: #f6f6f6;
+    border-top: 2px solid silver;
+    color: #484848;
+    font-size: 1.3em;
+}
+
+@media (min-width:1401px) {
+    #main{
+        padding: 100px 20%;
+        width: 60%;
+    }
+}
+
+@media (max-width:1400px) {
+    #main{
+        padding: 100px 10%;
+        width: 80%;
+    }
+}
+@media (max-width:700px) {
+    #main div{
+        width: 98%!important;
+        margin-bottom:20px ;
+    }
+}
+
+#main div {
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+
+#main h2{
+    font-size: 3em;
+}
+#main span{
+    color: #a0a0a0;
+}
+
 
